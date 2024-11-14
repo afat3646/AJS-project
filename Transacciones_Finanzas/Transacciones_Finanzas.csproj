@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Balance_Cuenta.resx" />
+    <EmbeddedResource Remove="Gaming.resx" />
+    <EmbeddedResource Remove="Internet.resx" />
+    <EmbeddedResource Remove="PagoSrv.resx" />
+    <EmbeddedResource Remove="Properties\Resources.resx" />
+    <EmbeddedResource Remove="SrvAlimentos.resx" />
+    <EmbeddedResource Remove="SrvEducacion.resx" />
+    <EmbeddedResource Remove="SrvElectricidad.resx" />
+    <EmbeddedResource Remove="SrvMedicos.resx" />
+    <EmbeddedResource Remove="SrvOcio.resx" />
+    <EmbeddedResource Remove="SrvTelecom.resx" />
+    <EmbeddedResource Remove="Streaming.resx" />
+    <EmbeddedResource Remove="Telefonia.resx" />
+    <EmbeddedResource Remove="Transacciones.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Balance_Cuenta.resx" />
+    <None Include="Gaming.resx" />
+    <None Include="Internet.resx" />
+    <None Include="PagoSrv.resx" />
+    <None Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SrvAlimentos.resx" />
+    <None Include="SrvEducacion.resx" />
+    <None Include="SrvElectricidad.resx" />
+    <None Include="SrvMedicos.resx" />
+    <None Include="SrvOcio.resx" />
+    <None Include="SrvTelecom.resx" />
+    <None Include="Streaming.resx" />
+    <None Include="Telefonia.resx" />
+    <None Include="Transacciones.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

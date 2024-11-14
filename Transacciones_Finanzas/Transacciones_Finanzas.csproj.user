@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Balance_Cuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Datos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gaming.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="guardadito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Internet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PagoSrv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SrvAlimentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SrvEducacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SrvElectricidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SrvMedicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SrvOcio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SrvTelecom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Streaming.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telefonia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Transacciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Transacciones.Designer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
