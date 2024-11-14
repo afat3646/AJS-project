@@ -146,7 +146,7 @@ namespace Transacciones_Finanzas
         {
 
         }
-
+        //hola mundo 
         private void label2_Click(object sender, EventArgs e)
         {
 

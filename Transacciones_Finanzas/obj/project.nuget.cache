@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/Wx/NxE3g/o=",
+  "dgSpecHash": "hPb23yecl1s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ponce\\Documents\\Escuela\\Repositorio\\AJS-project\\Transacciones_Finanzas v2.2\\Transacciones_Finanzas\\Transacciones_Finanzas\\Transacciones_Finanzas.csproj",
+  "projectFilePath": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Transacciones_Finanzas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ponce\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\ponce\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",

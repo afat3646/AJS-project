@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ponce\\Documents\\Escuela\\Repositorio\\AJS-project\\Transacciones_Finanzas v2.2\\Transacciones_Finanzas\\Transacciones_Finanzas\\Transacciones_Finanzas.csproj": {}
+    "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Transacciones_Finanzas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ponce\\Documents\\Escuela\\Repositorio\\AJS-project\\Transacciones_Finanzas v2.2\\Transacciones_Finanzas\\Transacciones_Finanzas\\Transacciones_Finanzas.csproj": {
+    "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Transacciones_Finanzas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ponce\\Documents\\Escuela\\Repositorio\\AJS-project\\Transacciones_Finanzas v2.2\\Transacciones_Finanzas\\Transacciones_Finanzas\\Transacciones_Finanzas.csproj",
+        "projectUniqueName": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Transacciones_Finanzas.csproj",
         "projectName": "Transacciones_Finanzas",
-        "projectPath": "C:\\Users\\ponce\\Documents\\Escuela\\Repositorio\\AJS-project\\Transacciones_Finanzas v2.2\\Transacciones_Finanzas\\Transacciones_Finanzas\\Transacciones_Finanzas.csproj",
+        "projectPath": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Transacciones_Finanzas.csproj",
         "packagesPath": "C:\\Users\\ponce\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ponce\\Documents\\Escuela\\Repositorio\\AJS-project\\Transacciones_Finanzas v2.2\\Transacciones_Finanzas\\Transacciones_Finanzas\\obj\\",
+        "outputPath": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
