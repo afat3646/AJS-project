@@ -19,8 +19,8 @@ namespace Transacciones_Finanzas
 
         private void Regresar_Btn_Click(object sender, EventArgs e)
         {
-            Balance_Cuenta balance_Cuenta = new Balance_Cuenta();
-            balance_Cuenta.Show();
+            Inicio inicioForm = new Inicio();
+            inicioForm.Show();
             this.Hide();
         }
 

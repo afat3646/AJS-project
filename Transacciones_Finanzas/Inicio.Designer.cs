@@ -33,6 +33,8 @@
             estadoDeCuenta = new Button();
             Nombre_Txt = new Label();
             ActDirecBtn = new Button();
+            PagoSrvBTN = new Button();
+            guardaditoBTN = new Button();
             SuspendLayout();
             // 
             // label1
@@ -49,9 +51,9 @@
             // 
             transacciones.BackColor = Color.CornflowerBlue;
             transacciones.FlatAppearance.BorderColor = Color.FromArgb(0, 0, 192);
-            transacciones.Location = new Point(30, 294);
+            transacciones.Location = new Point(153, 215);
             transacciones.Name = "transacciones";
-            transacciones.Size = new Size(127, 44);
+            transacciones.Size = new Size(98, 44);
             transacciones.TabIndex = 1;
             transacciones.Text = "Transferir";
             transacciones.UseVisualStyleBackColor = false;
@@ -59,9 +61,9 @@
             // 
             // estadoDeCuenta
             // 
-            estadoDeCuenta.Location = new Point(285, 298);
+            estadoDeCuenta.Location = new Point(21, 215);
             estadoDeCuenta.Name = "estadoDeCuenta";
-            estadoDeCuenta.Size = new Size(100, 40);
+            estadoDeCuenta.Size = new Size(97, 44);
             estadoDeCuenta.TabIndex = 2;
             estadoDeCuenta.Text = "Estado de cuenta";
             estadoDeCuenta.UseVisualStyleBackColor = true;
@@ -79,20 +81,41 @@
             // ActDirecBtn
             // 
             ActDirecBtn.Font = new Font("MS PGothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ActDirecBtn.Location = new Point(298, 68);
+            ActDirecBtn.Location = new Point(346, 12);
             ActDirecBtn.Name = "ActDirecBtn";
             ActDirecBtn.Size = new Size(122, 45);
             ActDirecBtn.TabIndex = 4;
-            ActDirecBtn.Text = "Actualizar dirección";
+            ActDirecBtn.Text = "Detalle de cuenta";
             ActDirecBtn.UseVisualStyleBackColor = true;
             ActDirecBtn.Click += ActDirecBtn_Click;
+            // 
+            // PagoSrvBTN
+            // 
+            PagoSrvBTN.Location = new Point(21, 295);
+            PagoSrvBTN.Name = "PagoSrvBTN";
+            PagoSrvBTN.Size = new Size(97, 44);
+            PagoSrvBTN.TabIndex = 5;
+            PagoSrvBTN.Text = "Pago de servicios";
+            PagoSrvBTN.UseVisualStyleBackColor = true;
+            PagoSrvBTN.Click += PagoSrvBTN_Click;
+            // 
+            // guardaditoBTN
+            // 
+            guardaditoBTN.Location = new Point(153, 295);
+            guardaditoBTN.Name = "guardaditoBTN";
+            guardaditoBTN.Size = new Size(98, 44);
+            guardaditoBTN.TabIndex = 6;
+            guardaditoBTN.Text = "Guardadito";
+            guardaditoBTN.UseVisualStyleBackColor = true;
             // 
             // Inicio
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(452, 370);
+            ClientSize = new Size(480, 422);
+            Controls.Add(guardaditoBTN);
+            Controls.Add(PagoSrvBTN);
             Controls.Add(ActDirecBtn);
             Controls.Add(Nombre_Txt);
             Controls.Add(estadoDeCuenta);
@@ -112,5 +135,7 @@
         private Button estadoDeCuenta;
         private Label Nombre_Txt;
         private Button ActDirecBtn;
+        private Button PagoSrvBTN;
+        private Button guardaditoBTN;
     }
 }

@@ -53,6 +53,7 @@ namespace Transacciones_Finanzas
         {
             Transacciones transaccionesFrom = new Transacciones();
             transaccionesFrom.Show();
+            this.Close();
         }
 
         private void Inicio_Load(object sender, EventArgs e)
@@ -70,6 +71,13 @@ namespace Transacciones_Finanzas
         private void ActDirecBtn_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void PagoSrvBTN_Click(object sender, EventArgs e)
+        {
+            PagoSrv pagoSrvForm = new PagoSrv();
+            pagoSrvForm.Show();
+            this.Hide();
         }
     }
 }
