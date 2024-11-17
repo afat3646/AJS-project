@@ -25,8 +25,12 @@ namespace Transacciones_Finanzas
         {
 
         }
-         //hola mundo 
-         //hola
+        //hola mundo 
+
+
+        //hola
+        //hola
+        //hola
         private void button1_Click(object sender, EventArgs e)
         {
             if (_connection.State == System.Data.ConnectionState.Closed)
