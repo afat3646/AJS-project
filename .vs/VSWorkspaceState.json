@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Transacciones_Finanzas"
   ],
-  "SelectedNode": "\\Transacciones_Finanzas.sln (Transacciones_Finanzas.sln)",
+  "SelectedNode": "\\Transacciones_Finanzas\\Transacciones.cs",
   "PreviewInSolutionExplorer": false
 }

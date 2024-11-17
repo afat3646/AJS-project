@@ -66,6 +66,7 @@
             // 
             contraseñaTxt.Location = new Point(189, 109);
             contraseñaTxt.Name = "contraseñaTxt";
+            contraseñaTxt.PasswordChar = '*';
             contraseñaTxt.Size = new Size(100, 23);
             contraseñaTxt.TabIndex = 3;
             // 

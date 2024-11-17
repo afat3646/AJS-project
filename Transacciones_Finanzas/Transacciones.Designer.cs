@@ -292,7 +292,7 @@
             // pictureBox2
             // 
             pictureBox2.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox2.Image = Properties.Resources.Logo_BBVA;
+            //pictureBox2.Image = Properties.Resources.Logo_BBVA;
             pictureBox2.Location = new Point(3, 6);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(75, 74);
