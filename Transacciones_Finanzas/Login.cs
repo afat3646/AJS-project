@@ -19,48 +19,53 @@ namespace Transacciones_Finanzas
         {
             InitializeComponent();
             _connection = connection;
-        }  
+        }
 
         private void Login_Load(object sender, EventArgs e)
         {
 
         }
-        //hola mundo 
-
-
-        //hola
-        //hola
-        //hola
+        public static int UsuarioID { get; private set; }
         private void button1_Click(object sender, EventArgs e)
         {
-            if (_connection.State == System.Data.ConnectionState.Closed)
             {
-                _connection.Open(); // Abrir la conexión si está cerrada
-            }
-            string correo = usuarioTxt.Text;
-            string contraseña = contraseñaTxt.Text;
-            string query = "SELECT * FROM Usuario WHERE Correo = @correo AND Contraseña = @contraseña";
-            using (MySqlCommand command = new MySqlCommand(query, _connection))
-            {
-                command.Parameters.AddWithValue("@correo", correo);
-                command.Parameters.AddWithValue("@contraseña", contraseña);
-
-                using (MySqlDataReader reader = command.ExecuteReader())
+                UsuarioID = 0;
+                if (_connection.State == System.Data.ConnectionState.Closed)
                 {
-                    if (reader.Read())
-                    {
-                        MessageBox.Show("Bienvenido al sistema");
-                        Inicio inicioForm = new Inicio();
-                        inicioForm.Show();
-                        this.Hide();
+                    _connection.Open(); // Abrir la conexión si está cerrada
+                }
+                
+                string correo = usuarioTxt.Text;
+                string contraseña = contraseñaTxt.Text;
+                string query = "SELECT No_Usuario, Nombres FROM Usuario WHERE Correo = @correo AND Contraseña = @contraseña";
+                using (MySqlCommand command = new MySqlCommand(query, _connection))
+                {
+                    command.Parameters.AddWithValue("@correo", correo);
+                    command.Parameters.AddWithValue("@contraseña", contraseña);
 
-                    }
-                    else
+                    using (MySqlDataReader reader = command.ExecuteReader())
                     {
-                        MessageBox.Show("Credenciales incorrectas");
+                        if (reader.Read())
+                        {
+
+                            UsuarioID = reader.GetInt32("No_Usuario");
+                            string nombreUsuario = reader.GetString("Nombres");
+                            reader.Close();
+                            MessageBox.Show($"Bienvenido al sistema, {nombreUsuario}");
+
+                            Inicio inicioForm = new Inicio();
+                            inicioForm.Show();
+                            this.Hide();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Credenciales incorrectas");
+                            this.Close();   
+                        }
                     }
                 }
             }
         }
     }
 }
+    

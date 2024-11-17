@@ -8,13 +8,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.ComponentModel.Design.ObjectSelectorEditor;
 
 namespace Transacciones_Finanzas
 {
+    
     public partial class Inicio : Form
     {
+
+        public static class UsuarioActivo
+        {
+
+            public static int No_Usuario { get; set; }
+        }
+
         public Inicio()
         {
+            if (Login.UsuarioID == 0)
+            {
+                MessageBox.Show("No hay un usuario activo.");
+                this.Close();
+                return;
+            }
+
             InitializeComponent();
             string conexionString = "Server=localhost;Database=Control_Finanzas;User ID=root;Password=Fernaal1;";
 
@@ -25,16 +41,23 @@ namespace Transacciones_Finanzas
                 try
                 {
                     conexion.Open();
-                    string consulta_nombre = "SELECT Nombres FROM Usuario WHERE No_Usuario = 1";
 
-
-                    using (MySqlCommand consultardatos = new MySqlCommand(consulta_nombre, conexion))
+                    string consultarUsuario = "SELECT * FROM Usuario WHERE No_Usuario = @NoUsuario";
+                    using (MySqlCommand command = new MySqlCommand(consultarUsuario, conexion))
                     {
-                        object nombre = consultardatos.ExecuteScalar();
 
-                        // Mostrar nombre en la etiqueta.
-                        Nombre_Txt.Visible = true;
-                        Nombre_Txt.Text = nombre.ToString();
+                        command.Parameters.AddWithValue("@NoUsuario", Login.UsuarioID);
+                        using (MySqlDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                // Aquí puedes obtener y mostrar otros datos del usuario
+                                string nombreUsuario = reader.GetString("Nombres");
+                                Nombre_Txt.Visible = true;
+                                Nombre_Txt.Text = "HOLA SEAS BIENVENIDO: " + nombreUsuario;
+                            }
+                        }
+
                     }
                 }
 
@@ -48,6 +71,8 @@ namespace Transacciones_Finanzas
                 }
             }
         }
+
+
 
         private void transacciones_Click(object sender, EventArgs e)
         {
@@ -78,6 +103,21 @@ namespace Transacciones_Finanzas
             PagoSrv pagoSrvForm = new PagoSrv();
             pagoSrvForm.Show();
             this.Hide();
+        }
+
+        private void guardaditoBTN_Click(object sender, EventArgs e)
+        {
+            guardadito guardaditoForm = new guardadito();
+            guardaditoForm.Show();
+            this.Hide();
+        }
+
+        private void logoutBtn_Click(object sender, EventArgs e)
+        {
+
+            
+
+            Application.Exit();
         }
     }
 }

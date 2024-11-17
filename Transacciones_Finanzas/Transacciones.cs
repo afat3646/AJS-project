@@ -62,9 +62,9 @@ namespace Transacciones_Finanzas
 
         private void Regresar_Btn_Click(object sender, EventArgs e)
         {
-            Balance_Cuenta balance_Cuentaform = new Balance_Cuenta();
-            balance_Cuentaform.Show();
-            this.Close();
+            Inicio inicioForm = new Inicio();
+            inicioForm.Show();
+            this.Hide();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)

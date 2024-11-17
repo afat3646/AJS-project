@@ -35,6 +35,7 @@
             ActDirecBtn = new Button();
             PagoSrvBTN = new Button();
             guardaditoBTN = new Button();
+            logoutBtn = new Button();
             SuspendLayout();
             // 
             // label1
@@ -107,6 +108,18 @@
             guardaditoBTN.TabIndex = 6;
             guardaditoBTN.Text = "Guardadito";
             guardaditoBTN.UseVisualStyleBackColor = true;
+            guardaditoBTN.Click += guardaditoBTN_Click;
+            // 
+            // logoutBtn
+            // 
+            logoutBtn.ForeColor = Color.Red;
+            logoutBtn.Location = new Point(373, 346);
+            logoutBtn.Name = "logoutBtn";
+            logoutBtn.Size = new Size(95, 23);
+            logoutBtn.TabIndex = 7;
+            logoutBtn.Text = "Cerrar Sesion";
+            logoutBtn.UseVisualStyleBackColor = true;
+            logoutBtn.Click += logoutBtn_Click;
             // 
             // Inicio
             // 
@@ -114,6 +127,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(480, 422);
+            Controls.Add(logoutBtn);
             Controls.Add(guardaditoBTN);
             Controls.Add(PagoSrvBTN);
             Controls.Add(ActDirecBtn);
@@ -137,5 +151,6 @@
         private Button ActDirecBtn;
         private Button PagoSrvBTN;
         private Button guardaditoBTN;
+        private Button logoutBtn;
     }
 }
