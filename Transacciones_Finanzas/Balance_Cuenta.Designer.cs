@@ -58,6 +58,7 @@
             linkLabel1 = new LinkLabel();
             label4 = new Label();
             Consultar_BalanceBtn = new Button();
+            contextMenuStrip1 = new ContextMenuStrip(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -109,6 +110,7 @@
             BalanceTxt.TabIndex = 3;
             BalanceTxt.Text = "$";
             BalanceTxt.TextAlign = ContentAlignment.TopCenter;
+            BalanceTxt.Click += BalanceTxt_Click;
             // 
             // menuStrip1
             // 
@@ -237,6 +239,7 @@
             Monto_TxtBox.BackColor = SystemColors.ControlLight;
             Monto_TxtBox.Cursor = Cursors.IBeam;
             Monto_TxtBox.Location = new Point(112, 247);
+            Monto_TxtBox.MaxLength = 13;
             Monto_TxtBox.Name = "Monto_TxtBox";
             Monto_TxtBox.Size = new Size(183, 22);
             Monto_TxtBox.TabIndex = 5;
@@ -335,6 +338,11 @@
             Consultar_BalanceBtn.UseVisualStyleBackColor = false;
             Consultar_BalanceBtn.Click += Consultar_BalanceBtn_Click;
             // 
+            // contextMenuStrip1
+            // 
+            contextMenuStrip1.Name = "contextMenuStrip1";
+            contextMenuStrip1.Size = new Size(61, 4);
+            // 
             // Balance_Cuenta
             // 
             AutoScaleMode = AutoScaleMode.None;
@@ -402,5 +410,6 @@
         private Label label4;
         private Button Consultar_BalanceBtn;
         private ToolStripMenuItem educaciToolStripMenuItem;
+        private ContextMenuStrip contextMenuStrip1;
     }
 }

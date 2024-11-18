@@ -149,7 +149,7 @@
             // pictureBox1
             // 
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            //pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(348, 6);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(49, 55);
@@ -245,7 +245,7 @@
             // 
             pictureBox11.BackColor = Color.White;
             pictureBox11.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
+            //pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
             pictureBox11.Location = new Point(84, 198);
             pictureBox11.Name = "pictureBox11";
             pictureBox11.Size = new Size(75, 74);
@@ -258,7 +258,7 @@
             // 
             pictureBox10.BackColor = Color.Black;
             pictureBox10.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
+            //pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
             pictureBox10.Location = new Point(3, 198);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(75, 74);
@@ -271,7 +271,7 @@
             // 
             pictureBox3.BackColor = Color.White;
             pictureBox3.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            //pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.Location = new Point(246, 103);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(75, 74);
@@ -338,7 +338,7 @@
             // 
             pictureBox9.BackColor = Color.WhiteSmoke;
             pictureBox9.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
+            //pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
             pictureBox9.Location = new Point(84, 6);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(75, 74);
@@ -351,7 +351,7 @@
             // 
             pictureBox8.BackColor = Color.White;
             pictureBox8.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
+            //pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
             pictureBox8.Location = new Point(3, 103);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(75, 74);
@@ -364,7 +364,7 @@
             // 
             pictureBox7.BackColor = Color.White;
             pictureBox7.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
+            //pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
             pictureBox7.Location = new Point(165, 103);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(75, 74);
@@ -377,7 +377,7 @@
             // 
             pictureBox6.BackColor = Color.White;
             pictureBox6.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
+            //pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
             pictureBox6.Location = new Point(246, 6);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(75, 74);
@@ -390,7 +390,7 @@
             // 
             pictureBox5.BackColor = Color.DarkSlateBlue;
             pictureBox5.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            //pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
             pictureBox5.Location = new Point(165, 6);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(75, 74);
@@ -403,7 +403,7 @@
             // 
             pictureBox4.BackColor = Color.White;
             pictureBox4.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            //pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
             pictureBox4.Location = new Point(84, 103);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(75, 74);
@@ -416,7 +416,7 @@
             // 
             pictureBox2.BackColor = Color.White;
             pictureBox2.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            //pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(3, 6);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(75, 74);

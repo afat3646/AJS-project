@@ -98,7 +98,9 @@ namespace Transacciones_Finanzas
 
         private void Salir_Btn_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Inicio inicioForm = new Inicio();
+            inicioForm.Show();
+            this.Hide();
         }
 
         private void Consultar_BalanceBtn_Click(object sender, EventArgs e)
@@ -257,6 +259,11 @@ namespace Transacciones_Finanzas
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BalanceTxt_Click(object sender, EventArgs e)
         {
 
         }

@@ -36,6 +36,7 @@
             PagoSrvBTN = new Button();
             guardaditoBTN = new Button();
             logoutBtn = new Button();
+            mySqlCommand1 = new MySql.Data.MySqlClient.MySqlCommand();
             SuspendLayout();
             // 
             // label1
@@ -50,8 +51,9 @@
             // 
             // transacciones
             // 
-            transacciones.BackColor = Color.CornflowerBlue;
+            transacciones.BackColor = SystemColors.Menu;
             transacciones.FlatAppearance.BorderColor = Color.FromArgb(0, 0, 192);
+            transacciones.ForeColor = SystemColors.MenuHighlight;
             transacciones.Location = new Point(153, 215);
             transacciones.Name = "transacciones";
             transacciones.Size = new Size(98, 44);
@@ -62,12 +64,14 @@
             // 
             // estadoDeCuenta
             // 
+            estadoDeCuenta.BackColor = SystemColors.Menu;
+            estadoDeCuenta.ForeColor = SystemColors.MenuHighlight;
             estadoDeCuenta.Location = new Point(21, 215);
             estadoDeCuenta.Name = "estadoDeCuenta";
             estadoDeCuenta.Size = new Size(97, 44);
             estadoDeCuenta.TabIndex = 2;
             estadoDeCuenta.Text = "Estado de cuenta";
-            estadoDeCuenta.UseVisualStyleBackColor = true;
+            estadoDeCuenta.UseVisualStyleBackColor = false;
             estadoDeCuenta.Click += estadoDeCuenta_Click;
             // 
             // Nombre_Txt
@@ -92,22 +96,26 @@
             // 
             // PagoSrvBTN
             // 
+            PagoSrvBTN.BackColor = SystemColors.Menu;
+            PagoSrvBTN.ForeColor = SystemColors.MenuHighlight;
             PagoSrvBTN.Location = new Point(21, 295);
             PagoSrvBTN.Name = "PagoSrvBTN";
             PagoSrvBTN.Size = new Size(97, 44);
             PagoSrvBTN.TabIndex = 5;
             PagoSrvBTN.Text = "Pago de servicios";
-            PagoSrvBTN.UseVisualStyleBackColor = true;
+            PagoSrvBTN.UseVisualStyleBackColor = false;
             PagoSrvBTN.Click += PagoSrvBTN_Click;
             // 
             // guardaditoBTN
             // 
+            guardaditoBTN.BackColor = SystemColors.Menu;
+            guardaditoBTN.ForeColor = SystemColors.MenuHighlight;
             guardaditoBTN.Location = new Point(153, 295);
             guardaditoBTN.Name = "guardaditoBTN";
             guardaditoBTN.Size = new Size(98, 44);
             guardaditoBTN.TabIndex = 6;
             guardaditoBTN.Text = "Guardadito";
-            guardaditoBTN.UseVisualStyleBackColor = true;
+            guardaditoBTN.UseVisualStyleBackColor = false;
             guardaditoBTN.Click += guardaditoBTN_Click;
             // 
             // logoutBtn
@@ -121,11 +129,18 @@
             logoutBtn.UseVisualStyleBackColor = true;
             logoutBtn.Click += logoutBtn_Click;
             // 
+            // mySqlCommand1
+            // 
+            mySqlCommand1.CacheAge = 0;
+            mySqlCommand1.Connection = null;
+            mySqlCommand1.EnableCaching = false;
+            mySqlCommand1.Transaction = null;
+            // 
             // Inicio
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveCaption;
+            BackColor = Color.LightCyan;
             ClientSize = new Size(480, 422);
             Controls.Add(logoutBtn);
             Controls.Add(guardaditoBTN);
@@ -135,7 +150,9 @@
             Controls.Add(estadoDeCuenta);
             Controls.Add(transacciones);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Inicio";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Inicio";
             Load += Inicio_Load;
             ResumeLayout(false);
@@ -152,5 +169,6 @@
         private Button PagoSrvBTN;
         private Button guardaditoBTN;
         private Button logoutBtn;
+        private MySql.Data.MySqlClient.MySqlCommand mySqlCommand1;
     }
 }

@@ -34,7 +34,7 @@ namespace Transacciones_Finanzas
                 {
                     _connection.Open(); // Abrir la conexión si está cerrada
                 }
-                
+
                 string correo = usuarioTxt.Text;
                 string contraseña = contraseñaTxt.Text;
                 string query = "SELECT No_Usuario, Nombres FROM Usuario WHERE Correo = @correo AND Contraseña = @contraseña";
@@ -45,6 +45,7 @@ namespace Transacciones_Finanzas
 
                     using (MySqlDataReader reader = command.ExecuteReader())
                     {
+
                         if (reader.Read())
                         {
 
@@ -60,11 +61,21 @@ namespace Transacciones_Finanzas
                         else
                         {
                             MessageBox.Show("Credenciales incorrectas");
-                            this.Close();   
+                            this.Close();
                         }
                     }
                 }
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Logo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

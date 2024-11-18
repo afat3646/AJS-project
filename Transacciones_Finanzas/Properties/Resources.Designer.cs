@@ -63,9 +63,19 @@ namespace Transacciones_Finanzas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LOGO_APP_FINANZAS {
+            get {
+                object obj = ResourceManager.GetObject("LOGO APP_FINANZAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo_BBVA {
             get {
-                object obj = ResourceManager.GetObject("Logo BBVA", resourceCulture);
+                object obj = ResourceManager.GetObject("Logo_BBVA", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

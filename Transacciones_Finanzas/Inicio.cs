@@ -37,16 +37,17 @@ namespace Transacciones_Finanzas
             // Conexion DB.
             using (MySqlConnection conexion = new MySqlConnection(conexionString))
             {
+                conexion.Open();
 
                 try
                 {
-                    conexion.Open();
+                    
 
                     string consultarUsuario = "SELECT * FROM Usuario WHERE No_Usuario = @NoUsuario";
                     using (MySqlCommand command = new MySqlCommand(consultarUsuario, conexion))
                     {
-
                         command.Parameters.AddWithValue("@NoUsuario", Login.UsuarioID);
+
                         using (MySqlDataReader reader = command.ExecuteReader())
                         {
                             if (reader.Read())
@@ -56,6 +57,7 @@ namespace Transacciones_Finanzas
                                 Nombre_Txt.Visible = true;
                                 Nombre_Txt.Text = "HOLA SEAS BIENVENIDO: " + nombreUsuario;
                             }
+
                         }
 
                     }
@@ -117,7 +119,6 @@ namespace Transacciones_Finanzas
 
             
 
-            Application.Exit();
         }
     }
 }
