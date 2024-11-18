@@ -86,7 +86,7 @@
             // ActDirecBtn
             // 
             ActDirecBtn.Font = new Font("MS PGothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ActDirecBtn.Location = new Point(346, 12);
+            ActDirecBtn.Location = new Point(283, 12);
             ActDirecBtn.Name = "ActDirecBtn";
             ActDirecBtn.Size = new Size(122, 45);
             ActDirecBtn.TabIndex = 4;
@@ -121,11 +121,11 @@
             // logoutBtn
             // 
             logoutBtn.ForeColor = Color.Red;
-            logoutBtn.Location = new Point(373, 346);
+            logoutBtn.Location = new Point(156, 360);
             logoutBtn.Name = "logoutBtn";
             logoutBtn.Size = new Size(95, 23);
             logoutBtn.TabIndex = 7;
-            logoutBtn.Text = "Cerrar Sesion";
+            logoutBtn.Text = "Cerrar aplicacion";
             logoutBtn.UseVisualStyleBackColor = true;
             logoutBtn.Click += logoutBtn_Click;
             // 
@@ -141,7 +141,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightCyan;
-            ClientSize = new Size(480, 422);
+            ClientSize = new Size(417, 422);
             Controls.Add(logoutBtn);
             Controls.Add(guardaditoBTN);
             Controls.Add(PagoSrvBTN);

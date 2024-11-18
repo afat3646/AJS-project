@@ -1,36 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\guardadito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\guardadito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\balance_cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\balance_cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\guardadito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\guardadito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\transacciones.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\transacciones.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\transacciones_finanzas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\transacciones_finanzas\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -43,104 +14,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 914,
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "guardadito.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\guardadito.cs",
-              "RelativeDocumentMoniker": "Transacciones_Finanzas\\guardadito.cs",
-              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\guardadito.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Transacciones_Finanzas\\guardadito.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T00:31:08.195Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "guardadito.cs",
-              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\guardadito.cs",
-              "RelativeDocumentMoniker": "Transacciones_Finanzas\\guardadito.cs",
-              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\guardadito.cs",
-              "RelativeToolTip": "Transacciones_Finanzas\\guardadito.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwEkAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T00:25:10.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Balance_Cuenta.cs",
-              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Balance_Cuenta.cs",
-              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Balance_Cuenta.cs",
-              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Balance_Cuenta.cs",
-              "RelativeToolTip": "Transacciones_Finanzas\\Balance_Cuenta.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAD0AAAB0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T19:19:05.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Transacciones.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Transacciones.Designer.cs",
-              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Transacciones.Designer.cs",
-              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Transacciones.Designer.cs",
-              "RelativeToolTip": "Transacciones_Finanzas\\Transacciones.Designer.cs",
-              "ViewState": "AgIAAAQBAAAAAAAAAAArwCcBAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T17:16:19.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Resources.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Properties\\Resources.Designer.cs",
-              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Properties\\Resources.Designer.cs",
-              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Properties\\Resources.Designer.cs",
-              "RelativeToolTip": "Transacciones_Finanzas\\Properties\\Resources.Designer.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T17:10:21.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Inicio.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Inicio.cs",
-              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Inicio.cs",
-              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Inicio.cs [Design]",
-              "RelativeToolTip": "Transacciones_Finanzas\\Inicio.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T17:37:46.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Login.cs",
-              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Login.cs",
-              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Transacciones_Finanzas\\Login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T17:37:43.989Z"
             }
           ]
         }

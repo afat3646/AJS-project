@@ -59,6 +59,7 @@
             label4 = new Label();
             Consultar_BalanceBtn = new Button();
             contextMenuStrip1 = new ContextMenuStrip(components);
+            export = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -343,12 +344,23 @@
             contextMenuStrip1.Name = "contextMenuStrip1";
             contextMenuStrip1.Size = new Size(61, 4);
             // 
+            // export
+            // 
+            export.Location = new Point(76, 346);
+            export.Name = "export";
+            export.Size = new Size(99, 23);
+            export.TabIndex = 29;
+            export.Text = "Exportar info";
+            export.UseVisualStyleBackColor = true;
+            export.Click += export_Click;
+            // 
             // Balance_Cuenta
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.LightCyan;
             ClientSize = new Size(412, 382);
             ControlBox = false;
+            Controls.Add(export);
             Controls.Add(Consultar_BalanceBtn);
             Controls.Add(label4);
             Controls.Add(linkLabel1);
@@ -411,5 +423,6 @@
         private Button Consultar_BalanceBtn;
         private ToolStripMenuItem educaciToolStripMenuItem;
         private ContextMenuStrip contextMenuStrip1;
+        private Button export;
     }
 }

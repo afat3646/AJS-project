@@ -10,6 +10,7 @@ namespace Transacciones_Finanzas
         {
             InitializeComponent();
             Monto_TxtBox.KeyPress += Monto_TxtBox_KeyPress;
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -46,8 +47,10 @@ namespace Transacciones_Finanzas
                 try
                 {
                     conexion.Open();
+                    //Aqui se le cambio el valor de = 1 a @NoUsuario el cual ya est a declarado en el login asi que solo eso se cambia en cualquier string que se tenga que sacar informacion del usuario 
+                    //Sigue esta recomendacion
+                    string update_monto = "UPDATE Usuario SET Balance = Balance + @nuevoBalance WHERE No_Usuario = @NoUsuario";
 
-                    string update_monto = "UPDATE Usuario SET Balance = Balance + @nuevoBalance WHERE No_Usuario = 1";
 
                     using (MySqlCommand incrementar_monto = new MySqlCommand(update_monto, conexion))
                     {
@@ -58,18 +61,25 @@ namespace Transacciones_Finanzas
                         }
                         else
                         {
+
+                             
                             // Sustituye los parámetros con los valores reales
                             incrementar_monto.Parameters.AddWithValue("@nuevoBalance", Convert.ToDouble(Monto_TxtBox.Text)); // El nuevo valor viene del TextBox Monto_TxtBox.
 
+                            //Aqui se debe poner los parametros que se usaran en este caso el @NoUsuario para que lo tome del login el usuario ID el cual es el usuario activo con el que se inicia sesion 
+                            //Sigue esta recomendacion
+                            incrementar_monto.Parameters.AddWithValue("@NoUsuario", Login.UsuarioID);
                             // Ejecuta el comando
                             int rowsAffected = incrementar_monto.ExecuteNonQuery();
 
                             if (rowsAffected > 0)
                             {
-                                string nuevo_balance = "SELECT Balance FROM Usuario WHERE No_Usuario = 1";
+                                
+                                string nuevo_balance = "SELECT Balance FROM Usuario WHERE No_Usuario = @NoUsuario";
 
                                 using (MySqlCommand consultar_balanceact = new MySqlCommand(nuevo_balance, conexion))
                                 {
+                                    consultar_balanceact.Parameters.AddWithValue("@NoUsuario", Login.UsuarioID);
                                     object balance_actualizado = consultar_balanceact.ExecuteScalar();
 
                                     // Mostrar el valor actualizado en el Label
@@ -115,11 +125,12 @@ namespace Transacciones_Finanzas
                 try
                 {
                     conexion.Open();
-                    string consulta_nombre = "SELECT Nombres FROM Usuario WHERE No_Usuario = 1";
-                    string consulta_balance = "SELECT Balance FROM Usuario WHERE No_Usuario = 1";
+                    string consulta_nombre = "SELECT Nombres FROM Usuario WHERE No_Usuario = @NoUsuario";
+                    string consulta_balance = "SELECT Balance FROM Usuario WHERE No_Usuario = @NoUsuario";
 
                     using (MySqlCommand consultardatos = new MySqlCommand(consulta_nombre, conexion))
                     {
+                        consultardatos.Parameters.AddWithValue("@NoUsuario", Login.UsuarioID);
                         object nombre = consultardatos.ExecuteScalar();
 
                         // Mostrar nombre en la etiqueta.
@@ -128,6 +139,7 @@ namespace Transacciones_Finanzas
 
                         using (MySqlCommand consultar_balance = new MySqlCommand(consulta_balance, conexion))
                         {
+                            consultar_balance.Parameters.AddWithValue("@NoUsuario", Login.UsuarioID);
                             object balance = consultar_balance.ExecuteScalar();
 
                             // Mostrar el valor del balance en la etiqueta.
@@ -266,6 +278,13 @@ namespace Transacciones_Finanzas
         private void BalanceTxt_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void export_Click(object sender, EventArgs e)
+        {
+            Exportacion exportacion = new Exportacion();
+            exportacion.Show();
+            this.Hide();
         }
     }
 }

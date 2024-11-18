@@ -78,22 +78,25 @@
             // 
             // Guardar
             // 
+            Guardar.BackColor = SystemColors.Menu;
+            Guardar.ForeColor = SystemColors.MenuHighlight;
             Guardar.Location = new Point(16, 235);
             Guardar.Name = "Guardar";
             Guardar.Size = new Size(119, 23);
             Guardar.TabIndex = 3;
             Guardar.Text = "Guardar dinero";
-            Guardar.UseVisualStyleBackColor = true;
+            Guardar.UseVisualStyleBackColor = false;
             Guardar.Click += Guardar_Click;
             // 
             // consultar
             // 
+            consultar.BackColor = SystemColors.Menu;
             consultar.Location = new Point(22, 92);
             consultar.Name = "consultar";
             consultar.Size = new Size(145, 23);
             consultar.TabIndex = 4;
             consultar.Text = "Consultar balance";
-            consultar.UseVisualStyleBackColor = true;
+            consultar.UseVisualStyleBackColor = false;
             consultar.Click += consultar_Click;
             // 
             // balanceTxt
@@ -106,12 +109,14 @@
             // 
             // retirar
             // 
+            retirar.BackColor = SystemColors.Menu;
+            retirar.ForeColor = SystemColors.MenuHighlight;
             retirar.Location = new Point(262, 235);
             retirar.Name = "retirar";
             retirar.Size = new Size(75, 23);
             retirar.TabIndex = 6;
             retirar.Text = "Retirar";
-            retirar.UseVisualStyleBackColor = true;
+            retirar.UseVisualStyleBackColor = false;
             retirar.Click += retirar_Click;
             // 
             // dateTimePicker1
@@ -160,12 +165,14 @@
             // 
             // regresar
             // 
+            regresar.BackColor = SystemColors.Menu;
+            regresar.ForeColor = SystemColors.MenuHighlight;
             regresar.Location = new Point(608, 317);
             regresar.Name = "regresar";
             regresar.Size = new Size(75, 23);
             regresar.TabIndex = 13;
             regresar.Text = "Regresar";
-            regresar.UseVisualStyleBackColor = true;
+            regresar.UseVisualStyleBackColor = false;
             regresar.Click += regresar_Click;
             // 
             // guardadito

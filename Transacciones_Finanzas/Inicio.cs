@@ -117,7 +117,7 @@ namespace Transacciones_Finanzas
         private void logoutBtn_Click(object sender, EventArgs e)
         {
 
-            
+            Application.Exit();
 
         }
     }
