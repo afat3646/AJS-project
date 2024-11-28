@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SrvOcio));
             pictureBox1 = new PictureBox();
             panel1 = new Panel();
             label10 = new Label();
@@ -47,7 +46,6 @@
             // pictureBox1
             // 
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
-            //pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(238, 7);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(49, 55);
@@ -92,7 +90,6 @@
             // 
             pictureBox5.BackColor = Color.White;
             pictureBox5.BorderStyle = BorderStyle.Fixed3D;
-            //pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
             pictureBox5.Location = new Point(122, 6);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(113, 108);
@@ -105,7 +102,6 @@
             // 
             pictureBox2.BackColor = Color.White;
             pictureBox2.BorderStyle = BorderStyle.Fixed3D;
-            //pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(3, 6);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(113, 108);
@@ -166,6 +162,7 @@
             Name = "SrvOcio";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "SrvOcio";
+            Load += SrvOcio_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

@@ -42,5 +42,10 @@ namespace Transacciones_Finanzas
         {
 
         }
+
+        private void SrvOcio_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

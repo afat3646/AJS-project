@@ -16,5 +16,10 @@ namespace Transacciones_Finanzas
         {
             InitializeComponent();
         }
+
+        private void Datos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

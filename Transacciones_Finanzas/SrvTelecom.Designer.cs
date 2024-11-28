@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SrvTelecom));
             label2 = new Label();
             pictureBox1 = new PictureBox();
             Regresar_Btn = new Button();
@@ -60,7 +59,6 @@
             // pictureBox1
             // 
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
-            //pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(236, 6);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(49, 55);
@@ -142,7 +140,6 @@
             // 
             pictureBox9.BackColor = Color.White;
             pictureBox9.BorderStyle = BorderStyle.Fixed3D;
-            //pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
             pictureBox9.Location = new Point(84, 6);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(75, 74);
@@ -155,7 +152,6 @@
             // 
             pictureBox5.BackColor = Color.White;
             pictureBox5.BorderStyle = BorderStyle.Fixed3D;
-            //pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
             pictureBox5.Location = new Point(165, 6);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(75, 74);
@@ -168,7 +164,6 @@
             // 
             pictureBox2.BackColor = Color.White;
             pictureBox2.BorderStyle = BorderStyle.Fixed3D;
-            //pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(3, 6);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(75, 74);
@@ -193,6 +188,7 @@
             Name = "SrvTelecom";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "SrvTelecom";
+            Load += SrvTelecom_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

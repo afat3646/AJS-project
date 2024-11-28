@@ -13,7 +13,7 @@ namespace Transacciones_Finanzas
         // Método para probar la conexión a la base de datos
         public static bool ProbarConexion()
         {
-            string connectionString = "Server=localhost;Database=Control_Finanzas;User ID=root;Password=Fernaal1;";
+            string connectionString = "Server=127.0.0.1;Database=Control_Finanzas;Uid=root;Pwd=roxellflores772;";
             try
             {
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
@@ -34,7 +34,7 @@ namespace Transacciones_Finanzas
 
         public static MySqlConnection ObtenerConexion()
         {
-            string connectionString = "Server=localhost;Database=Control_Finanzas;User ID=root;Password=Fernaal1;";
+            string connectionString = "Server=127.0.0.1;Database=Control_Finanzas;Uid=root;Pwd=roxellflores772;";
             MySqlConnection connection = new MySqlConnection(connectionString);
             try
             {

@@ -130,7 +130,7 @@ namespace Transacciones_Finanzas
         private void Transferir_Btn_Click(object sender, EventArgs e)
         {
             // Parametros de la DB.
-            string conexionString = "Server=localhost;Database=Control_Finanzas;User ID=root;Password=Fernaal1;";
+            string conexionString = "Server=127.0.0.1;Database=Control_Finanzas;Uid=root;Pwd=roxellflores772;";
 
             // Conexion DB.
             using (MySqlConnection conexion = new MySqlConnection(conexionString))
@@ -237,7 +237,7 @@ namespace Transacciones_Finanzas
         private void BuscarUsuario_Btn_Click(object sender, EventArgs e)
         {
             // Parámetros de la DB.
-            string conexionString = "Server=localhost;Database=Control_Finanzas;User ID=root;Password=Fernaal1;";
+            string conexionString = "Server=127.0.0.1;Database=Control_Finanzas;Uid=root;Pwd=roxellflores772;";
 
             // Conexión a la DB.
             using (MySqlConnection conexion = new MySqlConnection(conexionString))

@@ -49,5 +49,10 @@ namespace Transacciones_Finanzas
         {
 
         }
+
+        private void SrvTelecom_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

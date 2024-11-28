@@ -1,7 +1,160 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\srvocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\srvocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\srvmedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\srvmedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\srvelectricidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\srvelectricidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\transacciones_finanzas\\srvalimentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\srvalimentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\sesionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\sesionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\pagosrv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\pagosrv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\pagosrv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\pagosrv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\transacciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\transacciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\transacciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\transacciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\telefonia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\telefonia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\telefonia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\telefonia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\streaming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\streaming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\streaming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\streaming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\srvtelecom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\srvtelecom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\srvtelecom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\srvtelecom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\srvocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\srvocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\srvmedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\srvmedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\srvelectricidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\srvelectricidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\srveducacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\srveducacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\srveducacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\srveducacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\srvalimentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\srvalimentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\internet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\internet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\internet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\internet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\guardadito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\guardadito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\guardadito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\guardadito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\gaming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\gaming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\gaming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\gaming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\exportacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\exportacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\exportacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\exportacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|c:\\users\\ponce\\documents\\escuela\\ajs-project\\transacciones_finanzas\\balance_cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0424C455-3A8B-4365-A503-CCB1DDAC9D7E}|Transacciones_Finanzas\\Transacciones_Finanzas.csproj|solutionrelative:transacciones_finanzas\\balance_cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,6 +167,493 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 914,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SesionManager.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SesionManager.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\SesionManager.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SesionManager.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\SesionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:22:26.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "conexion.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\conexion.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\conexion.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\conexion.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:22:09.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Program.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Program.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Program.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:21:59.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Transacciones.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Transacciones.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Transacciones.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Transacciones.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\Transacciones.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAiwIQAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:21:44.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Transacciones.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Transacciones.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Transacciones.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Transacciones.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transacciones_Finanzas\\Transacciones.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:21:42.662Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PagoSrv.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\PagoSrv.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\PagoSrv.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\PagoSrv.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transacciones_Finanzas\\PagoSrv.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:20:32.344Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PagoSrv.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\PagoSrv.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\PagoSrv.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\PagoSrv.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\PagoSrv.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:20:34.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SrvAlimentos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvAlimentos.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\SrvAlimentos.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvAlimentos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transacciones_Finanzas\\SrvAlimentos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T05:29:31.75Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SrvElectricidad.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvElectricidad.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\SrvElectricidad.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvElectricidad.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transacciones_Finanzas\\SrvElectricidad.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:20:58.371Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SrvMedicos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvMedicos.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\SrvMedicos.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvMedicos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transacciones_Finanzas\\SrvMedicos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:21:05.792Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SrvOcio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvOcio.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\SrvOcio.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvOcio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transacciones_Finanzas\\SrvOcio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:21:17.782Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Telefonia.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Telefonia.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Telefonia.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Telefonia.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\Telefonia.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAUwFMAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:21:35.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Telefonia.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Telefonia.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Telefonia.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Telefonia.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transacciones_Finanzas\\Telefonia.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:21:33.743Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Streaming.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Streaming.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Streaming.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Streaming.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\Streaming.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAADwv2UAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:21:29.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Streaming.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Streaming.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Streaming.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Streaming.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transacciones_Finanzas\\Streaming.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:21:27.536Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SrvTelecom.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvTelecom.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\SrvTelecom.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvTelecom.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\SrvTelecom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:21:25.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Login.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Login.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transacciones_Finanzas\\Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:20:20.676Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Login.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Login.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Login.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\Login.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:20:22.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SrvTelecom.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvTelecom.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\SrvTelecom.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvTelecom.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transacciones_Finanzas\\SrvTelecom.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:21:23.323Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SrvOcio.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvOcio.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\SrvOcio.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvOcio.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\SrvOcio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:21:19.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SrvMedicos.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvMedicos.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\SrvMedicos.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvMedicos.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\SrvMedicos.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAqwDsAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:21:07.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SrvElectricidad.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvElectricidad.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\SrvElectricidad.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvElectricidad.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\SrvElectricidad.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAqwC8AAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:20:59.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SrvEducacion.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvEducacion.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\SrvEducacion.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvEducacion.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\SrvEducacion.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAqwC8AAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:20:53.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SrvEducacion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvEducacion.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\SrvEducacion.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvEducacion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transacciones_Finanzas\\SrvEducacion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:20:52.001Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SrvAlimentos.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvAlimentos.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\SrvAlimentos.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\SrvAlimentos.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\SrvAlimentos.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAqwDsAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:20:46.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Internet.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Internet.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Internet.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Internet.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\Internet.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAqwFMAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:20:14.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Internet.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Internet.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Internet.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Internet.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transacciones_Finanzas\\Internet.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:20:12.382Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Inicio.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Inicio.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Inicio.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\Inicio.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAgwCIAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:20:05.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Inicio.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Inicio.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transacciones_Finanzas\\Inicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:20:04.287Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "guardadito.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\guardadito.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\guardadito.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\guardadito.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\guardadito.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAAAKcAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:19:53.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "guardadito.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\guardadito.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\guardadito.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\guardadito.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transacciones_Finanzas\\guardadito.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:19:51.894Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Gaming.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Gaming.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Gaming.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Gaming.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\Gaming.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAYwEcAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:19:43.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Gaming.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Gaming.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Gaming.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Gaming.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transacciones_Finanzas\\Gaming.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:19:42.323Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Exportacion.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Exportacion.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Exportacion.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Exportacion.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\Exportacion.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAQwJUAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:19:20.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Exportacion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Exportacion.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Exportacion.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Exportacion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transacciones_Finanzas\\Exportacion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:19:19.406Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Datos.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Datos.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Datos.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Datos.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\Datos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:19:17.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Datos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Datos.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Datos.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Datos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transacciones_Finanzas\\Datos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:19:15.875Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Balance_Cuenta.cs",
+              "DocumentMoniker": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Balance_Cuenta.cs",
+              "RelativeDocumentMoniker": "Transacciones_Finanzas\\Balance_Cuenta.cs",
+              "ToolTip": "C:\\Users\\ponce\\Documents\\Escuela\\AJS-project\\Transacciones_Finanzas\\Balance_Cuenta.cs",
+              "RelativeToolTip": "Transacciones_Finanzas\\Balance_Cuenta.cs",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAIwHYAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T05:47:48.997Z",
+              "EditorCaption": ""
             }
           ]
         }

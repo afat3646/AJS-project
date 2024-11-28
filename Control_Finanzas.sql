@@ -1,5 +1,7 @@
 CREATE DATABASE Control_Finanzas;
-use Control_Finanzas;
+
+USE Control_Finanzas;
+
 CREATE TABLE Usuario (
 No_Usuario INT NOT NULL AUTO_INCREMENT,
 Correo VARCHAR (70),
@@ -11,6 +13,15 @@ Direccion VARCHAR (150),
 Telefono VARCHAR (15),
 PRIMARY KEY (No_Usuario));
 
+CREATE TABLE Movimientos (
+ID_Mov INT NOT NULL AUTO_INCREMENT,
+Monto NUMERIC,
+Categoria VARCHAR (30),
+Fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+No_Usuario INT NOT NULL,
+Balance_Usuario DOUBLE,
+PRIMARY KEY (ID_Mov),
+FOREIGN KEY (No_Usuario) REFERENCES Usuario (No_Usuario));
 CREATE TABLE Registro_Trans (
 ID_Mov INT NOT NULL AUTO_INCREMENT,
 No_Cuenta_Emi INT,
@@ -51,7 +62,7 @@ CREATE TABLE UsuarioSesion (
 
 ALTER TABLE UsuarioSesion ADD COLUMN Nombre VARCHAR(150);
 
-select * from UsuarioSesion;?
+select * from UsuarioSesion;
 select * from Guardadito;
 SELECT * FROM Usuario;
 SELECT * FROM V_Mov_Trans;
@@ -76,12 +87,12 @@ INSERT INTO Usuario (Correo, Contraseña, Balance, Nombres, Apellidos, Direccion
 VALUES ("afat3646@gmail.com", "Angel1234", 22890.89, "Angel Alvarado", "Flores", "De los chopos 2200", "3341855966");
 
 
-
 DROP TABLE IF EXISTS Usuario;
 DROP VIEW IF EXISTS V_Mov_Trans;																								
 DROP VIEW IF EXISTS V_Mov_PagoSrv;
 DROP TABLE IF EXISTS Registro_Trans;
 DROP TABLE IF EXISTS Registro_PagoSrv;
+
 
 ALTER TABLE Movimientos ADD COLUMN No_Usuario INT NOT NULL;
 ALTER TABLE Movimientos ADD COLUMN Balance_Usuario DOUBLE;
@@ -90,5 +101,5 @@ ALTER TABLE Movimientos ADD COLUMN Balance_Usuario DOUBLE;
 
 ALTER TABLE Movimientos ADD FOREIGN KEY (No_Usuario) REFERENCES Usuario (No_Usuario);
 ALTER TABLE Movimientos ADD CONSTRAINT FK_Balance FOREIGN KEY (Balance_Usuario) REFERENCES Usuario (Balance);
-
 COMMIT;
+
